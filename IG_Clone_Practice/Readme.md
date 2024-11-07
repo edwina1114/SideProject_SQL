@@ -1,5 +1,5 @@
 ### 說明
-建立一個類似IG的DataBase，從中找出
+建立一個類似IG的DataBase，從中找出:
 1. 5 oldest users
 2. Most popular registration date
 3. Identify inactive users (users with no photos)
