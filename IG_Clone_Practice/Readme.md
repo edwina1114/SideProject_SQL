@@ -3,14 +3,20 @@ This project used `mySQL` by designing a database inspired by Instagram to analy
 
 ## Database Design
 ### Schema
-- reviewers (id, first_name, last_name)
-- series (id, title, released_year, genre)
-- reviews (id, rating, series_id, reviewer_id)
+- users (id, username, created_at)
+- photos (id, image_url, user_id, created_at)
+- comments (id, comment_text, photo_id, user_id, created_at)
+- likes (user_id, photo_id, created_at)
+- follows (follower_id, followee_id, created_at)
+- tags (id, tag_name, created_at)
+- photo_tags (photo_id, tag_id)
 
 ### Relationships
-- `reviewers` → `reviews`: One-to-Many
-- `series` → `reviews`: One-to-Many
-- `reviewers` ↔ `series`: Many-to-Many (via reviews table)
+- `users` → `comments`: One-to-Many
+- `photos` → `comments`: One-to-Many
+- `users` ↔ `users`: Many-to-Many (via `follows` table)
+- `users` ↔ `photos`: Many-to-Many (via `likes` table)  
+- `photos` ↔ `tags`: Many-to-Many (via `photo_tags` table)
 
 ## Features
 - Find 5 oldest users.
