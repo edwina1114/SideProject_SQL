@@ -1,5 +1,5 @@
 ## Project Overview
-This project used `mySQL` by designing a database inspired by Instagram to analyze user engagement, photo statistics, and hashtags.
+This project used `MySQL` to design a database inspired by a TV series review system, enabling the analysis of reviewer activity, TV show ratings, and unrated series.
 
 ## Database Design
 ### Schema
