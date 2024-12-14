@@ -1,6 +1,13 @@
-### 檔案說明
+# Overview
 
-**[1. IG_Clone_Practice](./IG_Clone_Practice)**: 實作類似 IG 的資料庫，分析使用者與內容數據，如找出不活躍用戶、熱門標籤及互動指標。
+### **[Project 1: Instagram-Inspired Social Media Platform](./IG_Clone_Practice)**
+This database simulates a social media platform like Instagram, supporting the analysis of:
+- User engagement and activity.
+- Photo uploads and interactions (likes, comments).
+- Tag usage and popularity.
 
-**[2. TV_DB](./TV_DB)**: 實作類似電視台的資料庫，分析出觀眾的年齡層、熱門節目等。
-
+### **[Project 2: TV Series Review System](./TV_DB)**
+This database models a TV series review platform, enabling detailed analysis of:
+- Reviewer activity and engagement levels.
+- Ratings for individual TV shows.
+- Identification of TV shows that have not been rated.
