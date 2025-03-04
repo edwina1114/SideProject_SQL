@@ -1,13 +1,20 @@
-# Overview
+# **Projects Overview**  
 
-### **[Project 1: Instagram-Inspired Social Media Platform](./IG_Clone_Practice)**
-This database simulates a social media platform like Instagram, supporting the analysis of:
-- User engagement and activity.
-- Photo uploads and interactions (likes, comments).
-- Tag usage and popularity.
+## **[Project 1: Instagram-Inspired Social Media Platform](./IG_Clone_Practice) 📸**  
+A database simulating a social media platform similar to **Instagram**, supporting in-depth analysis of user engagement and content interactions.  
 
-### **[Project 2: TV Series Review System](./TV_DB)**
-This database models a TV series review platform, enabling detailed analysis of:
-- Reviewer activity and engagement levels.
-- Ratings for individual TV shows.
-- Identification of TV shows that have not been rated.
+### **🔹 Key Features & Insights**  
+- 📌 **User Engagement:** Analyze user activity trends.  
+- 📌 **Photo Uploads & Interactions:** Track likes, comments, and user behavior.  
+- 📌 **Tag Popularity:** Identify trending hashtags and their impact.  
+
+---
+
+## **[Project 2: TV Series Review System](./TV_DB) 📺**  
+A **TV series review platform** that enables the analysis of **ratings, user activity, and show popularity**.  
+
+### **🔹 Key Features & Insights**  
+- 📌 **Reviewer Activity:** Track engagement levels and review frequency.  
+- 📌 **Show Ratings:** Analyze how different TV shows are rated over time.  
+- 📌 **Unrated Shows:** Identify TV series with missing reviews.  
+
